@@ -1,7 +1,4 @@
-const urlapi = "http://45.71.181.109:3001/api/sensors?id_team=3&id_sensor=6";
-const proxyUrl = "https://cors-anywhere.herokuapp.com/";
-const url = proxyUrl + urlapi;
-
+const url = "http://45.71.181.109:3001/api/sensors?id_team=3&id_sensor=6";
 const sensorValues = [];
 const sensorLabels = [];
 let sensorChart;
